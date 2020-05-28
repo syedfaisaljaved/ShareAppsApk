@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Light application theme. -->
+    <style name="AppTheme.Base.Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="primaryAppNameColor">@color/primaryAppNameColor</item>
+        <item name="primaryAppSizeColor">@color/primaryAppSizeColor</item>
+        <item name="primaryBackgroundColor">@color/primaryBackgroundColor</item>
+        <item name="primaryCardBackgroundColor">@color/primaryCardBackgroundColor</item>
+    </style>
+
+    <!-- Night application theme. -->
+    <style name="AppTheme.Base.Night" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="primaryAppNameColor">@color/primaryAppNameColorNight</item>
+        <item name="primaryAppSizeColor">@color/primaryAppSizeColorNight</item>
+        <item name="primaryBackgroundColor">@color/primaryBackgroundColorNight</item>
+        <item name="primaryCardBackgroundColor">@color/primaryCardBackgroundColorNight</item>
+    </style>
+
+</resources>

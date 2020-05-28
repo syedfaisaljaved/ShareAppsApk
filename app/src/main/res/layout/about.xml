@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/primaryBackgroundColor"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:textColor="?attr/primaryAppNameColor"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developer"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textColor="?attr/primaryAppNameColor"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faisal Javed"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_rate"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate the App!"
+            android:textSize="24sp"
+            android:textColor="?attr/primaryAppNameColor"/>
+
+        <TextView
+            android:id="@+id/more"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_more"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Apps!"
+            android:textSize="24sp"
+            android:textColor="?attr/primaryAppNameColor"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
